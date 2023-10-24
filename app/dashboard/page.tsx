@@ -12,7 +12,7 @@ export default function Dashboard() {
   // ---------------------------------------
 
   if (status === 'unauthenticated') {
-    router.push('/signin', { scroll: false })
+    router.push('/', { scroll: false })
   }
 
   // ---------------------------------------
