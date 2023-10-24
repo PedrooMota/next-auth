@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <SessionProvider session={session}>
-        <body className={`bg-white`} >{children}</body>
+        <body className='bg-white'>{children}</body>
       </SessionProvider>
     </html>
   )
