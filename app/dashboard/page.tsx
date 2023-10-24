@@ -20,9 +20,9 @@ export default function Dashboard() {
   if (status === 'authenticated') {
 
     return (
-      <>
+      <div className='text-white'>
         olá senhor, {session?.user?.name}
-      </>
+      </div>
     )
   }
 }
